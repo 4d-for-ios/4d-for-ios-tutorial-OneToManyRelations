@@ -126,16 +126,6 @@
 				"shortLabel": "Project id",
 				"valueType": "number",
 				"type": 4
-			},
-			"tasks": {
-				"kind": "relatedEntities",
-				"label": "List of Tasks",
-				"shortLabel": "Tasks",
-				"relatedEntities": "Projects",
-				"inverseName": "employee",
-				"relatedDataClass": "Projects",
-				"relatedTableNumber": 2,
-				"isToMany": true
 			}
 		},
 		"2": {
@@ -460,15 +450,6 @@
 					"kind": "storage",
 					"fieldType": 0,
 					"path": "PhoneNumber"
-				},
-				{
-					"kind": "relatedEntities",
-					"inverseName": "employee",
-					"relatedDataClass": "Projects",
-					"relatedTableNumber": 2,
-					"isToMany": true,
-					"name": "tasks",
-					"path": "tasks"
 				}
 			]
 		},
